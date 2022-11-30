@@ -1,0 +1,46 @@
+
+.apple-card-effect {
+    box-shadow: inset 20px 20px 20px rgba(0,0,0,0.05), 25px 35px 20px rgba(0,0,0,0.05), 25px 30px 30px rgba(0,0,0,0.05), inset -20px -20px 25px rgba(255,255,255,0.9);
+    transition: 0.5s ease-in-out;
+    border-radius: 32% 32% 42% 42% / 38% 36% 63% 59% ;
+}
+.apple-card-effect:hover{
+    border-radius: 61% 39% 38% 62% / 67% 49% 51% 33%;
+}
+.apple-card-effect::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: 35px;
+    height: 35px;
+    background:  #ffffff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.apple-card-effect::after{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.apple-card-effect h2{
+    width: 80px;
+    height: 80px; 
+    background: #eff0f4;
+    border-radius: 61% 39% 38% 62% / 67% 49% 51% 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.1), inset -2px -5px 10px rgba(255,255,255,1), 15px 15px 10px rgba(0,0,0,0.05), 15px 10px 15px rgba(0,0,0,0.025);
+}
+.apple-card-effect:hover h2{
+    border-radius: 32% 32% 42% 42% / 38% 36% 63% 59%;
+}
+
